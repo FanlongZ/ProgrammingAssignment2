@@ -40,8 +40,8 @@ cacheSolve <- function(x, ...) {
 
 ## ---------------------------------------------------------------------------
 ## Followinig is a small test case. Expected output is the first cacheSolve(mM)
-## will give the inverse calcluated right before and the followinig will return
-## the cached inverse.
+## will give the inverse calcluated using solve function and the following 2
+## cacheSolve(mM) will return the inverse from cache.
 
 mM <- makeCacheMatrix()
 mM$set(matrix(1:4,2,2))

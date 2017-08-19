@@ -38,7 +38,7 @@ cacheSolve <- function(x, ...) {
 	inv
 }
 
----------------------------------------------------------------------------
+## ---------------------------------------------------------------------------
 ## Followinig is a small test case. Expected output is the first cacheSolve(mM)
 ## will give the inverse calcluated right before and the followinig will return
 ## the cached inverse.
